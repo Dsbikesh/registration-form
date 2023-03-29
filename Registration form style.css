@@ -1,0 +1,96 @@
+ * {
+     margin: 10;
+     padding: 10;
+ }
+
+ body {
+     background-color: aqua;
+     background-size: 280%;
+     background-position: -400px 0px;
+ }
+
+ .main {
+     width: 700px;
+     height: 500px;
+     margin: 100px auto 0px auto;
+ }
+
+ h2 {
+     text-align: center;
+     padding: 5px;
+     font-family: sans-serif;
+ }
+
+ div.register {
+     background-color: gold;
+     width: 60%;
+     height: 35rem;
+     font-size: 14px;
+     border-radius: 10px;
+     border: 1px solid rgba(red, green, blue, alpha);
+     box-shadow: 2px 2px 30px rgba(0, 0, 0, 3);
+     columns: red;
+ }
+
+ form#register {
+     margin: 5px;
+ }
+
+ .search {
+     margin-left: 55%;
+     width:100%;
+     border-radius: 4px;
+ }
+
+ .search input {
+
+     border-radius: 4px;
+     width: 95px;
+ }
+
+ .btn {
+     border-radius: 4px;
+ }
+
+ label {
+     font-family: sans-serif;
+     font-size: 14px;
+     font-style: inherit;
+ }
+
+ input.name {
+     width: 140px;
+     border: 2px solid #add;
+     border-radius: 4px;
+     outline: 4px;
+     padding: 1px;
+     background-color: white;
+     box-shadow: inset 1px 1px 5px blue;
+ }
+
+ #submit {
+     width: 60px;
+     border: 2px solid #add;
+     border-radius: 2px;
+     font-size: 14px;
+     padding: 2px;
+     font-family: sans-serif;
+     font-weight: 300;
+     border-radius: 5px;
+     background-color: green;
+     color: black;
+     cursor: pointer;
+     box-shadow: 1px 1px 5px;
+     margin-bottom: 10px red;
+ }
+
+ label,
+ span,
+ h2 {
+     text-shadow: 1px 1px 1px rgba(red, green, blue, alpha);
+ }
+
+ .details {
+     border-radius: 4px;
+     box-shadow: inset 1px 1px 5px blue;
+ }
